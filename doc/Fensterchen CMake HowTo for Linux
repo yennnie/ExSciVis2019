@@ -1,0 +1,20 @@
+Required packages
+=================
+CMake: sudo apt-get install cmake
+ccmake: sudo apt-get install cmake-curses-gui
+sudo apt-get install build-essential
+sudo apt-get install freeglut3-dev
+sudo apt-get install xorg-dev libglu1-mesa-dev
+sudo apt-get install libxi-dev
+sudo apt-get install libxrandr-dev
+
+First compilation
+=================
+git clone https://github.com/vrsys/exercise-scivis
+cd exercise-scivis
+mkdir cmake_out
+cd cmake_out
+ccmake ..
+c (configure)
+g (generate)
+Execute Makefile
