@@ -6,4 +6,4 @@ out vec4 FragColor;
 void main()
 {
   FragColor = Frag_Colour * texture( Texture, Frag_UV.st);
-};
+} /*; */

@@ -10,4 +10,4 @@
     Frag_UV = UV;
     Frag_Colour = Colour;
     gl_Position = ortho*vec4(Position.xy,0,1);
-  };
+  } /*; */

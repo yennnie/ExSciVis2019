@@ -47,6 +47,43 @@ get_sample_data(vec3 in_sampling_pos)
 
 }
 
+vec3 get_gradient(vec3 pos) {
+
+    vec3 step = max_bounds/volume_dimensions;
+    vec3 gradient;
+    gradient.x = get_sample_data(vec3(pos.x+step.x, pos.y, pos.z)) - get_sample_data(vec3(pos.x-step.x, pos.y, pos.z));
+    gradient.y = get_sample_data(vec3(pos.x, pos.y+step.y, pos.z)) - get_sample_data(vec3(pos.x, pos.y-step.y, pos.z));
+    gradient.z = get_sample_data(vec3(pos.x, pos.y, pos.z+step.z)) - get_sample_data(vec3(pos.x, pos.y, pos.z-step.z));
+
+    return normalize(gradient);
+}
+
+vec4 get_color_and_opacity (float s) {
+    vec4 color = texture(transfer_texture, vec2(s,s));
+    return color;
+}
+
+vec4 shading (vec3 sampling_pos, vec4 color) {
+
+    //diffuse
+    vec3 light_direction = normalize(light_position - sampling_pos);
+    vec3 gradient = normalize(get_gradient(sampling_pos));
+    float diffuse_angle = dot(gradient, light_direction);
+    vec3 diffuse_light = light_diffuse_color * max(0.0, diffuse_angle);
+
+    //specular
+    vec3 camera_direction = normalize(camera_location - sampling_pos);
+    vec3 reflection = normalize(reflect(light_direction, gradient));
+    float specular_angle = dot(camera_direction, reflection);
+    float specular = pow(specular_angle, light_ref_coef);
+    vec3 specular_light = light_specular_color * specular;
+
+    //lighting
+    vec3 lighting = light_ambient_color + diffuse_light + specular_light;
+    return  color * vec4(lighting, 1.0);
+
+}
+
 void main()
 {
     /// One step trough the volume
@@ -91,19 +128,26 @@ void main()
     }
 
     dst = max_val;
+
 #endif 
-    
+
 #if TASK == 11
+
     // the traversal loop,
     // termination when the sampling position is outside volume boundarys
     // another termination condition for early ray termination is added
+    int count = 0;
+    float sum_s = 0 ;
+    float avg_val;
+
     while (inside_volume)
     {      
         // get sample
         float s = get_sample_data(sampling_pos);
-
+        count++;
+        sum_s += s;
         // dummy code
-        dst = vec4(sampling_pos, 1.0);
+       // dst = vec4(sampling_pos, 1.0);
         
         // increment the ray sampling position
         sampling_pos  += ray_increment;
@@ -111,29 +155,75 @@ void main()
         // update the loop termination condition
         inside_volume  = inside_volume_bounds(sampling_pos);
     }
+    // Compute avg of s and then assign dst = color
+    avg_val = sum_s/count;
+
+    // apply the transfer functions to retrieve color and opacity
+    vec4 color = texture(transfer_texture, vec2(avg_val, avg_val));
+    dst = color;
+
 #endif
     
 #if TASK == 12 || TASK == 13
     // the traversal loop,
     // termination when the sampling position is outside volume boundarys
     // another termination condition for early ray termination is added
+
     while (inside_volume)
     {
         // get sample
         float s = get_sample_data(sampling_pos);
 
-        // dummy code
-        dst = vec4(light_diffuse_color, 1.0);
+                if (s >= iso_value)  {
+                    vec3 intersection_point = sampling_pos;
+
+                    #if TASK == 13 // Binary Search
+                    //starpoint = prevpoint
+                    vec3 start_point = sampling_pos - ray_increment;
+                    vec3 end_point = sampling_pos;
+                    bool found = false;
+
+                    if (s > iso_value && !found) {
+                        vec4 color = texture(transfer_texture, vec2(s, s));
+                        dst = color;
+                    }
+                    //find the point where val = iso if distance is btw startpoint and endpoint < 1
+                    while (length(end_point-start_point)<1) {
+                        vec3 middle_point = (end_point + start_point)/2;
+                        //get sample
+                        float middle_val = get_sample_data(middle_point);
+                        if (middle_val >= iso_value) {
+                            intersection = middle_point;
+
+                            if (middle_val == iso_value) {
+                                //stop search
+                                break;
+                            } else if (s <  iso_value) {
+                                start_point = middle_point;
+                            }
+                        }
+                    }
+                    float interection_val = get_sample_data(intersection_point);
+                    vec4 color = get_color_and_opacity(interection_val);
+                    dst = color;
+                    #endif
+                }
 
         // increment the ray sampling position
         sampling_pos += ray_increment;
-#if TASK == 13 // Binary Search
-        IMPLEMENT;
-#endif
+
 #if ENABLE_LIGHTNING == 1 // Add Shading
         IMPLEMENTLIGHT;
+        dst = shading(sampling_pos,color);
 #if ENABLE_SHADOWING == 1 // Add Shadows
         IMPLEMENTSHADOW;
+    // illumination calculation for the correct display of surface shadows
+
+
+
+
+
+
 #endif
 #endif
 
@@ -172,4 +262,5 @@ void main()
     // return the calculated color value
     FragColor = dst;
 }
+
 

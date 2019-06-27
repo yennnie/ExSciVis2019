@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="exercise_scivis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw-3.0.3\;CMake Files\external\glfw-3.0.3\docs\;CMake Files\external\glfw-3.0.3\src\;CMake Files\framework\;CMake Files\source\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DEXERCISE_SCIVIS_SOURCE_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019&quot;"/>
+					<Add option="-DEXERCISE_SCIVIS_BINARY_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/include"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DEXERCISE_SCIVIS_SOURCE_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019&quot;"/>
+					<Add option="-DEXERCISE_SCIVIS_BINARY_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/include"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="framework">
+				<Option output="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/libframework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DEXERCISE_SCIVIS_SOURCE_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019&quot;"/>
+					<Add option="-DEXERCISE_SCIVIS_BINARY_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/include"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glm-0.9.5.3"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/stb-image"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/framework"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/framework/.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 framework"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="framework/fast">
+				<Option output="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/libframework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DEXERCISE_SCIVIS_SOURCE_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019&quot;"/>
+					<Add option="-DEXERCISE_SCIVIS_BINARY_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/include"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glm-0.9.5.3"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/stb-image"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/framework"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/framework/.."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 framework/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/framework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyVolumeRaycaster">
+				<Option output="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/build/Debug/MyVolumeRaycaster" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/build/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DEXERCISE_SCIVIS_SOURCE_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019&quot;"/>
+					<Add option="-DEXERCISE_SCIVIS_BINARY_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/include"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glm-0.9.5.3"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/stb-image"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 MyVolumeRaycaster"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyVolumeRaycaster/fast">
+				<Option output="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/build/Debug/MyVolumeRaycaster" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/build/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DEXERCISE_SCIVIS_SOURCE_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019&quot;"/>
+					<Add option="-DEXERCISE_SCIVIS_BINARY_DIR=&quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/include"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/glm-0.9.5.3"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/external/stb-image"/>
+					<Add directory="/Users/user/Documents/GitHub/ExSciVis2019/framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 MyVolumeRaycaster/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/cmake-build-debug/external/glfw-3.0.3/src/config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/clipboard.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/cocoa_clipboard.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/cocoa_gamma.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/cocoa_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/cocoa_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/gamma.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/nsgl_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/color.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/cube.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/cube.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/data_types_fwd.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/fensterchen.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/glew.c">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/imconfig.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/imgui.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/imgui.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/imgui_impl_glfw_gl3.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/imgui_impl_glfw_gl3.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/plane.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/plane.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/stb_rect_pack.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/stb_textedit.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/stb_truetype.h">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/transfer_function.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/transfer_function.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/turntable.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/utils.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/utils.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/volume_loader_raw.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/volume_loader_raw.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/window.cpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/window.hpp">
+			<Option target="framework"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/source/my_volume_raycaster.cpp">
+			<Option target="MyVolumeRaycaster"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/source/shader/pass_through_GUI.frag">
+			<Option target="MyVolumeRaycaster"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/source/shader/pass_through_GUI.vert">
+			<Option target="MyVolumeRaycaster"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/source/shader/volume.frag">
+			<Option target="MyVolumeRaycaster"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/source/shader/volume.vert">
+			<Option target="MyVolumeRaycaster"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.0.3\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.0.3\docs\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.0.3\src\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.0.3\src\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.0.3\src\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/glfwConfig.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.0.3\src\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/external/glfw-3.0.3/src/glfwConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.0.3\src\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/framework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framework\"/>
+		</Unit>
+		<Unit filename="/Users/user/Documents/GitHub/ExSciVis2019/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
