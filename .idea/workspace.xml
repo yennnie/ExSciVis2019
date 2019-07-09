@@ -14,8 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55a3584-1d0e-4afa-848c-6bd83b171532" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/shader/pass_through_GUI.frag" beforeDir="false" afterPath="$PROJECT_DIR$/source/shader/pass_through_GUI.frag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/shader/pass_through_GUI.vert" beforeDir="false" afterPath="$PROJECT_DIR$/source/shader/pass_through_GUI.vert" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build/Debug/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build/Debug/imgui.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/shader/volume.frag" beforeDir="false" afterPath="$PROJECT_DIR$/source/shader/volume.frag" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/shader/volume.frag">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="3533">
+              <caret line="379" column="1" selection-start-line="379" selection-start-column="1" selection-end-line="379" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -67,20 +67,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/ExSciVis2019.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="164" />
+    <option name="x" value="132" />
     <option name="y" value="43" />
-    <option name="width" value="1388" />
+    <option name="width" value="1423" />
     <option name="height" value="969" />
   </component>
   <component name="ProjectView">
@@ -119,9 +109,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/shader" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/shader" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,17 +177,22 @@
       <workItem from="1561475684388" duration="1564000" />
       <workItem from="1561478001260" duration="926000" />
       <workItem from="1561644674056" duration="8000" />
+      <workItem from="1562075982464" duration="339000" />
+      <workItem from="1562079068870" duration="1355000" />
+      <workItem from="1562081498879" duration="1251000" />
+      <workItem from="1562083272759" duration="518000" />
+      <workItem from="1562659658291" duration="1219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15473000" />
+    <option name="totallyTimeSpent" value="20155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="164" y="43" width="1388" height="969" extended-state="0" />
+    <frame x="132" y="43" width="1423" height="969" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13150074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13540912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,17 +242,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/volume.frag">
+    <entry file="file://$USER_HOME$/Downloads/volume.frag" />
+    <entry file="file://$USER_HOME$/Desktop/volume.frag" />
+    <entry file="file://$USER_HOME$/Downloads/ExSciVis2019-master/source/shader/volume.frag">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="117" column="2" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="2" />
+        <state relative-caret-position="777">
+          <caret line="221" column="24" lean-forward="true" selection-start-line="133" selection-end-line="221" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/shader/volume.frag">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="3533">
+          <caret line="379" column="1" selection-start-line="379" selection-start-column="1" selection-end-line="379" selection-end-column="1" />
         </state>
       </provider>
     </entry>
